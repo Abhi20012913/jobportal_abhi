@@ -20,7 +20,7 @@ app.use(express.json());
 app.use(express.urlencoded({extended:true}));
 app.use(cookieParser());
 const corsOptions = {
-    origin:"https://jobportal-abhi.onrender.com",
+    origin:"https://jobportalabhi-production.up.railway.app",
     credentials:true
 }
 
